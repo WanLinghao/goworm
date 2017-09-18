@@ -1,15 +1,4 @@
-get lockggg
-get lock
-processor 1
-wati at 1
 url is https://kubernetes.io/
-waitting here!
-wait end 1
-enter 2
-get lockggg
-get lock
-processor watting here!
-end watting
 url is https://kubernetes.io/images/favicon.png
 url is https://kubernetes.io/docs/home/
 url is https://kubernetes.io/partners/
@@ -31,11 +20,6 @@ url is https://kubernetes.io/docs/concepts/storage/persistent-volumes/
 url is https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/
 url is https://kubernetes.io/case-studies/pearson/
 url is https://kubernetes.io/docs/setup/pick-right-solution/
-waitting here!
-get lockggg
-get lock
-processor watting here!
-end watting
 url is https://kubernetes.io/docs/setup/
 url is https://kubernetes.io/docs/concepts/
 url is https://kubernetes.io/docs/tasks/
@@ -405,11 +389,6 @@ url is https://kubernetes.io/docs/getting-started-guides/mesos
 url is https://kubernetes.io/docs/getting-started-guides/dcos
 url is https://kubernetes.io/docs/getting-started-guides/mesos-docker
 url is https://kubernetes.io/docs/getting-started-guides/ubuntu
-waitting here!
-get lockggg
-get lock
-processor watting here!
-end watting
 url is https://kubernetes.io/editdocs#docs/setup/index.md
 url is https://kubernetes.io/editdocs#docs/concepts/index.md
 url is https://kubernetes.io/docs/admin/kube-apiserver/
@@ -737,7 +716,7 @@ url is https://kubernetes.io/docs/concepts/containers/images#updating-images
 url is https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
 url is https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
 url is https://kubernetes.io/docs/concepts/policy/security-context/
-error 404: https://kubernetes.io/docs/concepts/policy/security-context/
+catch 404 error: https://kubernetes.io/docs/concepts/policy/security-context/
 url is https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller#pod-template
 url is https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod
 url is https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions
@@ -825,7 +804,7 @@ url is https://kubernetes.io/docs/concepts/configuration/secret#using-secrets-as
 url is https://kubernetes.io/docs/user-guide/namespaces/
 url is https://kubernetes.io/editdocs#docs/tools/kompose/user-guide.md
 url is https://kubernetes.io/docs/conversion.md
-error 404: https://kubernetes.io/docs/conversion.md
+catch 404 error: https://kubernetes.io/docs/conversion.md
 url is https://kubernetes.io/editdocs#docs/tasks/inject-data-application/define-command-argument-container.md
 url is https://kubernetes.io/docs/user-guide/containers/
 url is https://kubernetes.io/editdocs#docs/tasks/inject-data-application/define-environment-variable-container.md
@@ -1133,11 +1112,6 @@ url is https://kubernetes.io/docs/admin/high-availability/kube-scheduler.yaml
 url is https://kubernetes.io/docs/admin/high-availability/kube-controller-manager.yaml
 url is https://kubernetes.io/editdocs#docs/getting-started-guides/binary_release.md
 url is https://kubernetes.io/docs/getting-started-guides
-waitting here!
-get lockggg
-get lock
-processor watting here!
-end watting
 url is https://kubernetes.io/editdocs#docs/admin/kube-apiserver.md
 url is https://kubernetes.io/editdocs#docs/admin/kube-scheduler.md
 url is https://kubernetes.io/editdocs#docs/admin/kube-proxy.md
@@ -1205,8 +1179,4 @@ url is https://kubernetes.io/docs/admin/authorization/#request-attributes
 error,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Mapurl is https://kubernetes.io/editdocs#docs/admin/federation/index.md
 url is https://kubernetes.io/docs/concepts/services-networking/service/#type-loadbalancer
 url is https://kubernetes.io/editdocs#docs/reference/federation/index.md
-error,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Mapwaitting here!
-get lockggg
-get lock
-processor watting here!
-end watting
+error,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Maperror,can't tarnsfer to sync.Map

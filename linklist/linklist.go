@@ -1,12 +1,15 @@
 package linklist
+
 import "errors"
 
 type Linklist struct {
-	head *node	
+	head *node
 	tail *node
 }
+
 var EmptyLinkList = errors.New("the linklist is empty")
-func (l *Linklist) InsertHead(ele interface {}) (error) {
+
+func (l *Linklist) InsertHead(ele interface{}) error {
 	node := newNode(ele)
 	currentFirstNode := l.head.next
 	if currentFirstNode == nil {
@@ -15,15 +18,15 @@ func (l *Linklist) InsertHead(ele interface {}) (error) {
 		l.tail = node
 		return nil
 	}
-	
+
 	currentFirstNode.pre = node
 	node.next = currentFirstNode
-	node.pre =  l.head
+	node.pre = l.head
 	l.head.next = node
 	return nil
 }
 
-func (l *Linklist) InsertTail(ele interface {}) (error) {
+func (l *Linklist) InsertTail(ele interface{}) error {
 	node := newNode(ele)
 	if l.tail == nil {
 		l.head.next = node
@@ -31,28 +34,28 @@ func (l *Linklist) InsertTail(ele interface {}) (error) {
 		l.tail = node
 		return nil
 	}
-	
+
 	l.tail.next = node
 	node.pre = l.tail
 	l.tail = node
 	return nil
 }
 
-func (l *Linklist) GetHead() (interface {}, error) {
+func (l *Linklist) GetHead() (interface{}, error) {
 	if l.IsEmpty() {
 		return "", EmptyLinkList
-	} 
+	}
 	return l.head.next.ele, nil
 }
 
-func (l *Linklist) GetTail() (interface {}, error) {
+func (l *Linklist) GetTail() (interface{}, error) {
 	if l.IsEmpty() {
 		return "", EmptyLinkList
 	}
 	return l.tail.ele, nil
 }
 
-func (l *Linklist) ExtractHead() (interface {}, error) {
+func (l *Linklist) ExtractHead() (interface{}, error) {
 	if l.IsEmpty() {
 		return "", EmptyLinkList
 	}
@@ -68,12 +71,12 @@ func (l *Linklist) ExtractHead() (interface {}, error) {
 	return ele, nil
 }
 
-func (l *Linklist) ExtractTail() (interface {}, error) {
+func (l *Linklist) ExtractTail() (interface{}, error) {
 	if l.IsEmpty() {
 		return "", EmptyLinkList
 	}
 	ele := l.tail.ele
-	if l.head.next == l.tail{
+	if l.head.next == l.tail {
 		l.head.next = nil
 		l.tail = nil
 		return ele, nil
@@ -90,9 +93,9 @@ func (l *Linklist) IsEmpty() bool {
 	}
 	return false
 }
-func NewLinklist() (*Linklist) {
-	return &Linklist {
-		head : newNode("gakki"),
-		tail : nil,
+func NewLinklist() *Linklist {
+	return &Linklist{
+		head: newNode("gakki"),
+		tail: nil,
 	}
-} 
+}

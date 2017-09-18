@@ -1,14 +1,15 @@
 package linklist
+
 type node struct {
-	ele interface {}
+	ele  interface{}
 	next *node
-	pre *node	
+	pre  *node
 }
 
-func newNode(ele interface {}) *node{
-	return &node {
-		ele: ele,
+func newNode(ele interface{}) *node {
+	return &node{
+		ele:  ele,
 		next: nil,
-		pre: nil,
+		pre:  nil,
 	}
 }
