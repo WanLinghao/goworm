@@ -1,7 +1,6 @@
 package queue
 
-//import "errors"
-import "worm/Goworm/linklist"
+import "goworm/linklist"
 import "sync"
 type Queue struct {
 	list *linklist.Linklist

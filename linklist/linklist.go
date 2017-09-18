@@ -84,10 +84,6 @@ func (l *Linklist) ExtractTail() (interface {}, error) {
 	return ele, nil
 }
 
-// func (l *Linklist) GetHeadNode() node {
-// 	return l.head
-// }
-
 func (l *Linklist) IsEmpty() bool {
 	if l.head.next == nil {
 		return true
